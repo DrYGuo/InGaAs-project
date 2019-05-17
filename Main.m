@@ -1,6 +1,11 @@
 %--------------------TILTE----------------------------------
-%This Blochwave programe is written by Yueming Guo
-%Most of the notations in this code have been adopted
+%This program is written by Yueming Guo
+% This program is used for calculating the ratios of integrated
+% intensisites between (-1,11,1) and (1, 11, 1) for In(x)Ga(1-x)As at
+% different composition x and thicknesses. This program calls Blochwave.m
+% for the computation of the intensity ratios. To adjust the speed and
+% accuracy of the Blochwave calculation, Sgmax in Blochwave.m is to be changed. 
+% Most of the notations in this code have been adopted
 %from the book by Zuo & Spence. The conventions for Sg,direction of zone axis follows his own thesis. Please see Fig.2.2  
 % in Guo's PhD thesis(2017). In Chapter 2 of Guo's thesis,
 %a more detailed derivation of Blochwave approach is given.
